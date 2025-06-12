@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <h2><span class="sidebar-title">Dashboard</span></h2>
+      <ul class="Text-align">
+  <li>
+    <span class="sidebar-item">
+      <img src="./Logo/Home.png" alt="Home" class="sidebar-icon" />
+      <span class="sidebar-text">Home</span>
+    </span>
+  </li>
+  <li>
+    <span class="sidebar-item">
+      <img src="./Logo/analytics.png" alt="Analytics" class="sidebar-icon" />
+      <span class="sidebar-text">Analytics</span>
+    </span>
+  </li>
+  <li>
+    <span class="sidebar-item">
+      <img src="./Logo/Task.png" alt="Tasks" class="sidebar-icon" />
+      <span class="sidebar-text">Tasks</span>
+    </span>
+  </li>
+  <li>
+    <span class="sidebar-item">
+      <img src="./Logo/Setting.png" alt="Settings" class="sidebar-icon" />
+      <span class="sidebar-text">Settings</span>
+    </span>
+  </li>
+</ul>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      
+      <!-- Navbar -->
+      <header class="navbar">
+        <button id="toggleSidebar">☰</button>
+        <h1>Dashboard Overview</h1>
+        <button id="darkModeToggle">🌙</button>
+      </header>
+
+      <!-- Widgets -->
+      <section class="widgets">
+        <div class="widget">
+          <h3>Total Users</h3>
+          <p>1,234</p>
+        </div>
+        <div class="widget">
+          <h3>Revenue</h3>
+          <p>$12,345</p>
+        </div>
+        <div class="widget">
+          <h3>Tasks Completed</h3>
+          <p>456</p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
