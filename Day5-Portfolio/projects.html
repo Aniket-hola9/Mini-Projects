@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Projects</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <header>
+    <h1 class="logo" >Portfolio<span>.</span></h1>
+
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+
+    <section class="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="./images/dashboard.jpg" alt="Dashboard UI" />
+          <h3>Responsive Dashboard</h3>
+          <p>
+            A clean, responsive admin dashboard built with HTML and CSS.
+            Includes sidebar, widgets, and dark mode toggle.
+          </p>
+          <a
+            href="https://github.com/Aniket-hola9/Mini-Projects/tree/main/Dashboard"
+            class="btn"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="./images/todo.png" alt="To-Do App" />
+          <h3>To-Do App</h3>
+          <p>
+            A JavaScript-based task tracker with localStorage. Add, remove, and
+            mark tasks complete in a clean UI.
+          </p>
+          <a
+            href="https://github.com/Aniket-hola9/Mini-Projects/tree/main/ToDoApp"
+            class="btn"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="./images/form.png" alt="Dynamic Form" />
+          <h3>Dynamic Registration Form</h3>
+          <p>
+            A form with real-time JavaScript validation. Highlights invalid
+            fields and gives feedback without reloading.
+          </p>
+          <a
+            href="https://github.com/Aniket-hola9/Mini-Projects/tree/main/FormValidation"
+            class="btn"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img src="./images/api.jpg" alt="API Integration" />
+          <h3>API Integration Project</h3>
+          <p>
+            Fetches data from a public API and displays it dynamically. Includes
+            loading states and error handling.
+          </p>
+          <a
+            href="https://github.com/Aniket-hola9/Mini-Projects/tree/main/APIIntegration"
+            class="btn"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
