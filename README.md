@@ -32,4 +32,21 @@ This repository contains 7 mini projects built over a week as part of a self-pac
 ---
 
 ## 📂 Folder Structure
+Mini-Projects/
+├── Day1-Dashboard/
+├── Day2-FormValidation/
+├── Day3-TodoApp/
+├── Day4-UserListAPI/
+├── Day5-Portfolio/
+├── Day6-ProductCart/
+├── Day7-FinalReport/
+└── README.md
 
+---
+
+## 🚀 How to Run (for React Projects)
+
+```bash
+cd Day6-ProductCart   # or any React project folder
+npm install
+npm run dev
